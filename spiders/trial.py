@@ -127,7 +127,7 @@ class ArticleSpider(scrapy.Spider):
         # #             'Avg_Qty_Per_Serving': row.xpath('td[2]//text()').extract_first(),
         # #             'handle_Avg_Qty_Per_100g' : row.xpath('td[3]//text()').extract_first(),
         # #         }
-        # #         atable_nut.append(dict_table_nut)
+        # #         atable_nut.append(dict_table_nut) test
 
         item['prodname'] = prod_name
         item['prodprice']=prod_price_detail_symbol+prod_price_detail_value+"."+prod_price_detail_cent
